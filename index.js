@@ -72,7 +72,7 @@ newspapers.map((newspaper) => {
 });
 
 app.get("/", (req, res) => {
-  res.json("Hello from Express");
+  res.json("Welcome To The Climate News API");
 });
 
 app.get("/news", (req, res) => {
